@@ -10,7 +10,7 @@ import time
 from datetime import datetime
 import plotly.graph_objects as go
 from procedures.environment_functions import AirQuality, GlobalTemperature, CO2Emissions
-
+from flask import Flask
 
 # HEROKU APP:  the-climate-change-dash
 
@@ -69,11 +69,13 @@ AQIfig = aqi_fun.createAQIChart(dataAQI, scale = 0.2)
 # -----------------------------------------------------------------------------------
 UPDATE_MINS = 30
 
-meta_tags=[
-        {"name": "viewport", "content": "width=device-width, initial-scale=1"}
-    ]
-#app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-app = dash.Dash(__name__, meta_tags=meta_tags)
+#meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}]
+
+server = Flask(__name__)
+server.secret_key = os.environ.get('secret_key', 'secret')
+#app = dash.Dash(__name__, external_stylesheets=external_stylesheets, meta_tags=meta_tags)
+app = dash.Dash(__name__, server = server)
+app.config.supress_callback_exceptions = True
 
 app.layout = html.Div(children=[
     html.H1(
