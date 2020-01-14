@@ -11,6 +11,7 @@ from datetime import datetime
 import plotly.graph_objects as go
 from procedures.environment_functions import AirQuality, GlobalTemperature, CO2Emissions
 from flask import Flask
+import os 
 
 # HEROKU APP:  the-climate-change-dash
 
@@ -75,7 +76,6 @@ server = Flask(__name__)
 server.secret_key = os.environ.get('secret_key', 'secret')
 #app = dash.Dash(__name__, external_stylesheets=external_stylesheets, meta_tags=meta_tags)
 app = dash.Dash(__name__, server = server)
-app.config.supress_callback_exceptions = True
 
 app.layout = html.Div(children=[
     html.H1(
