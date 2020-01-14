@@ -1,0 +1,122 @@
+city_ascii,lat,lng,country,iso3,population,pop_weight,AQI_MEAN,AQI_STATUS,color,text
+Tokyo,35.685,139.7514,Japan,JPN,35676000,0.08090498,26.428571428571427,Good,#0D9E6E,Tokyo - Japan<br>Population 35.676<br>AQI: 26.4286
+Mexico City,19.4424,-99.131,Mexico,MEX,19028000,0.124056117,64.0,Moderate,#FBDE3B,Mexico City - Mexico<br>Population 19.028<br>AQI: 64.0
+Dhaka,23.7231,90.4086,Bangladesh,BGD,12797394,0.15307767,144.5,Unhealthy for Sensitive Group,#FF9E3D,Dhaka - Bangladesh<br>Population 12.797394<br>AQI: 144.5
+Buenos Aires,-34.6025,-58.3975,Argentina,ARG,12795000,0.182093793,68.0,Moderate,#FBDE3B,Buenos Aires - Argentina<br>Population 12.795<br>AQI: 68.0
+Cairo,30.05,31.25,Egypt,EGY,11893000,0.20906438800000002,46.0,Good,#0D9E6E,Cairo - Egypt<br>Population 11.893<br>AQI: 46.0
+Beijing,39.9289,116.3883,China,CHN,11106000,0.234250247,90.05,Moderate,#FBDE3B,Beijing - China<br>Population 11.106<br>AQI: 90.05
+Manila,14.6042,120.9822,Philippines,PHL,11100000,0.259422499,38.0,Good,#0D9E6E,Manila - Philippines<br>Population 11.1<br>AQI: 38.0
+Moscow,55.7522,37.6155,Russia,RUS,10452000,0.283125236,28.157894736842106,Good,#0D9E6E,Moscow - Russia<br>Population 10.452<br>AQI: 28.1579
+Paris,48.8667,2.3333,France,FRA,9904000,0.305585235,26.235294117647058,Good,#0D9E6E,Paris - France<br>Population 9.904<br>AQI: 26.2353
+Seoul,37.5663,126.9997,South Korea,KOR,9796000,0.327800315,67.80952380952381,Moderate,#FBDE3B,Seoul - South Korea<br>Population 9.796<br>AQI: 67.8095
+Jakarta,-6.1744,106.8294,Indonesia,IDN,9125000,0.34849372100000003,91.66666666666667,Moderate,#FBDE3B,Jakarta - Indonesia<br>Population 9.125<br>AQI: 91.6667
+London,51.5,-0.1167,United Kingdom,GBR,8567000,0.36792171100000004,24.94736842105263,Good,#0D9E6E,London - United Kingdom<br>Population 8.567<br>AQI: 24.9474
+Lima,-12.048,-77.0501,Peru,PER,8012000,0.38609108799999997,40.18181818181818,Good,#0D9E6E,Lima - Peru<br>Population 8.012<br>AQI: 40.1818
+Tehran,35.6719,51.4243,Iran,IRN,7873000,0.403945245,84.85714285714286,Moderate,#FBDE3B,Tehran - Iran<br>Population 7.873<br>AQI: 84.8571
+Kinshasa,-4.3297,15.315,Congo (Kinshasa),COD,7843000,0.42173136899999997,,No Status,#EEEEEE,Kinshasa - Congo (Kinshasa)<br>Population 7.843<br>AQI: nan
+Bogota,4.5964,-74.0833,Colombia,COL,7772000,0.439356481,63.857142857142854,Moderate,#FBDE3B,Bogota - Colombia<br>Population 7.772<br>AQI: 63.8571
+Taipei,25.0358,121.5683,Taiwan,TWN,6900273,0.455004717,78.52380952380952,Moderate,#FBDE3B,Taipei - Taiwan<br>Population 6.900273<br>AQI: 78.5238
+Bangkok,13.75,100.5166,Thailand,THA,6704000,0.47020785,115.07142857142857,Unhealthy for Sensitive Group,#FF9E3D,Bangkok - Thailand<br>Population 6.704<br>AQI: 115.0714
+Santiago,-33.45,-70.667,Chile,CHL,5720000,0.483179497,61.6,Moderate,#FBDE3B,Santiago - Chile<br>Population 5.72<br>AQI: 61.6
+Madrid,40.4,-3.6834,Spain,ESP,5567000,0.49580417600000004,83.75,Moderate,#FBDE3B,Madrid - Spain<br>Population 5.567<br>AQI: 83.75
+Washington,38.9047,-77.0163,United States,USA,5289420,0.507799366,25.625,Good,#0D9E6E,Washington - United States<br>Population 5.28942<br>AQI: 25.625
+Singapore,1.2930000000000001,103.8558,Singapore,SGP,5183700,0.519554808,41.2,Good,#0D9E6E,Singapore - Singapore<br>Population 5.1837<br>AQI: 41.2
+Luanda,-8.8383,13.2344,Angola,AGO,5172900,0.531285758,,No Status,#EEEEEE,Luanda - Angola<br>Population 5.1729<br>AQI: nan
+Baghdad,33.3386,44.3939,Iraq,IRQ,5054000,0.54274707,61.0,Moderate,#FBDE3B,Baghdad - Iraq<br>Population 5.054<br>AQI: 61.0
+Khartoum,15.5881,32.5342,Sudan,SDN,4754000,0.553528051,,No Status,#EEEEEE,Khartoum - Sudan<br>Population 4.754<br>AQI: nan
+Riyadh,24.6408,46.7727,Saudi Arabia,SAU,4465000,0.563653646,30.444444444444443,Good,#0D9E6E,Riyadh - Saudi Arabia<br>Population 4.465<br>AQI: 30.4444
+Hanoi,21.0333,105.85,Vietnam,VNM,4378000,0.573581946,152.0,Unhealthy,#ff5252,Hanoi - Vietnam<br>Population 4.378<br>AQI: 152.0
+Rangoon,16.7834,96.1667,Burma,MMR,4088000,0.582852591,139.0,Unhealthy for Sensitive Group,#FF9E3D,Rangoon - Burma<br>Population 4.088<br>AQI: 139.0
+Abidjan,5.32,-4.04,CÃ´te Dâ€™Ivoire,CIV,3802000,0.591474655,,No Status,#EEEEEE,Abidjan - CÃ´te Dâ€™Ivoire<br>Population 3.802<br>AQI: nan
+Brasilia,-15.7833,-47.9161,Brazil,BRA,3716996,0.599903949,45.04761904761905,Good,#0D9E6E,Brasilia - Brazil<br>Population 3.716996<br>AQI: 45.0476
+Ankara,39.9272,32.8644,Turkey,TUR,3716000,0.608330984,98.73333333333333,Moderate,#FBDE3B,Ankara - Turkey<br>Population 3.716<br>AQI: 98.7333
+Berlin,52.5218,13.4015,Germany,DEU,3406000,0.61605501,24.9,Good,#0D9E6E,Berlin - Germany<br>Population 3.406<br>AQI: 24.9
+Algiers,36.7631,3.0506,Algeria,DZA,3354000,0.6236611120000001,53.0,Moderate,#FBDE3B,Algiers - Algeria<br>Population 3.354<br>AQI: 53.0
+Rome,41.896,12.4833,Italy,ITA,3339000,0.631233198,52.68421052631579,Moderate,#FBDE3B,Rome - Italy<br>Population 3.339<br>AQI: 52.6842
+Pyongyang,39.0194,125.7547,North Korea,PRK,3300000,0.638716841,,No Status,#EEEEEE,Pyongyang - North Korea<br>Population 3.3<br>AQI: nan
+Kabul,34.5167,69.1833,Afghanistan,AFG,3277000,0.646148324,,No Status,#EEEEEE,Kabul - Afghanistan<br>Population 3.277<br>AQI: nan
+Athens,37.9833,23.7333,Greece,GRC,3242000,0.653500436,27.0,Good,#0D9E6E,Athens - Greece<br>Population 3.242<br>AQI: 27.0
+Cape Town,-33.92,18.435,South Africa,ZAF,3215000,0.660791319,34.666666666666664,Good,#0D9E6E,Cape Town - South Africa<br>Population 3.215<br>AQI: 34.6667
+Addis Ababa,9.0333,38.7,Ethiopia,ETH,3100000,0.667821407,61.0,Moderate,#FBDE3B,Addis Ababa - Ethiopia<br>Population 3.1<br>AQI: 61.0
+Nairobi,-1.2833,36.8167,Kenya,KEN,3010000,0.6746473959999999,,No Status,#EEEEEE,Nairobi - Kenya<br>Population 3.01<br>AQI: nan
+Caracas,10.501,-66.917,Venezuela,VEN,2985000,0.6814166909999999,,No Status,#EEEEEE,Caracas - Venezuela<br>Population 2.985<br>AQI: nan
+Dar es Salaam,-6.8,39.2683,Tanzania,TZA,2930000,0.688061259,28.25,Good,#0D9E6E,Dar es Salaam - Tanzania<br>Population 2.93<br>AQI: 28.25
+Lisbon,38.7227,-9.1449,Portugal,PRT,2812000,0.6944382290000001,14.5,Good,#0D9E6E,Lisbon - Portugal<br>Population 2.812<br>AQI: 14.5
+Kyiv,50.4334,30.5166,Ukraine,UKR,2709000,0.70058162,59.5,Moderate,#FBDE3B,Kyiv - Ukraine<br>Population 2.709<br>AQI: 59.5
+Dakar,14.7158,-17.4731,Senegal,SEN,2604000,0.7064868940000001,48.285714285714285,Good,#0D9E6E,Dakar - Senegal<br>Population 2.604<br>AQI: 48.2857
+Damascus,33.5,36.3,Syria,SYR,2466000,0.7120792159999999,,No Status,#EEEEEE,Damascus - Syria<br>Population 2.466<br>AQI: nan
+Tunis,36.8028,10.1797,Tunisia,TUN,2412500,0.717550212,,No Status,#EEEEEE,Tunis - Tunisia<br>Population 2.4125<br>AQI: nan
+Vienna,48.2,16.3666,Austria,AUT,2400000,0.722992862,31.375,Good,#0D9E6E,Vienna - Austria<br>Population 2.4<br>AQI: 31.375
+Tripoli,32.8925,13.18,Libya,LBY,2189000,0.727957011,,No Status,#EEEEEE,Tripoli - Libya<br>Population 2.189<br>AQI: nan
+Tashkent,41.3117,69.2949,Uzbekistan,UZB,2184000,0.732909822,72.0,Moderate,#FBDE3B,Tashkent - Uzbekistan<br>Population 2.184<br>AQI: 72.0
+Havana,23.131999999999998,-82.3642,Cuba,CUB,2174000,0.737839955,,No Status,#EEEEEE,Havana - Cuba<br>Population 2.174<br>AQI: nan
+Santo Domingo,18.4701,-69.9001,Dominican Republic,DOM,2154000,0.742724733,23.0,Good,#0D9E6E,Santo Domingo - Dominican Republic<br>Population 2.154<br>AQI: 23.0
+Baku,40.3953,49.8622,Azerbaijan,AZE,2122300,0.7475376220000001,33.05555555555556,Good,#0D9E6E,Baku - Azerbaijan<br>Population 2.1223<br>AQI: 33.0556
+Accra,5.55,-0.2167,Ghana,GHA,2121000,0.7523475629999999,,No Status,#EEEEEE,Accra - Ghana<br>Population 2.121<br>AQI: nan
+Kuwait City,29.3697,47.9783,Kuwait,KWT,2063000,0.757025974,107.0,Unhealthy for Sensitive Group,#FF9E3D,Kuwait City - Kuwait<br>Population 2.063<br>AQI: 107.0
+Sanaa,15.3547,44.2066,Yemen,YEM,2008000,0.7615796570000001,51.5,Moderate,#FBDE3B,Sanaa - Yemen<br>Population 2.008<br>AQI: 51.5
+Port-au-Prince,18.541,-72.336,Haiti,HTI,1998000,0.766110662,,No Status,#EEEEEE,Port-au-Prince - Haiti<br>Population 1.998<br>AQI: nan
+Bucharest,44.4334,26.0999,Romania,ROU,1942000,0.770514673,27.5,Good,#0D9E6E,Bucharest - Romania<br>Population 1.942<br>AQI: 27.5
+Asuncion,-25.2964,-57.6415,Paraguay,PRY,1870000,0.774755403,59.0,Moderate,#FBDE3B,Asuncion - Paraguay<br>Population 1.87<br>AQI: 59.0
+Beirut,33.872,35.5097,Lebanon,LBN,1846000,0.778941708,,No Status,#EEEEEE,Beirut - Lebanon<br>Population 1.846<br>AQI: nan
+Minsk,53.9,27.5666,Belarus,BLR,1805000,0.783035033,54.0,Moderate,#FBDE3B,Minsk - Belarus<br>Population 1.805<br>AQI: 54.0
+Brussels,50.8333,4.3333,Belgium,BEL,1743000,0.786987757,29.5,Good,#0D9E6E,Brussels - Belgium<br>Population 1.743<br>AQI: 29.5
+Warsaw,52.25,21.0,Poland,POL,1707000,0.790858842,80.6,Moderate,#FBDE3B,Warsaw - Poland<br>Population 1.707<br>AQI: 80.6
+Rabat,34.0253,-6.8361,Morocco,MAR,1705000,0.79472539,119.8,Unhealthy for Sensitive Group,#FF9E3D,Rabat - Morocco<br>Population 1.705<br>AQI: 119.8
+Quito,-0.215,-78.5001,Ecuador,ECU,1701000,0.798582868,65.3,Moderate,#FBDE3B,Quito - Ecuador<br>Population 1.701<br>AQI: 65.3
+Antananarivo,-18.9166,47.5166,Madagascar,MDG,1697000,0.802431274,,No Status,#EEEEEE,Antananarivo - Madagascar<br>Population 1.697<br>AQI: nan
+Budapest,47.5,19.0833,Hungary,HUN,1679000,0.806238861,61.5,Moderate,#FBDE3B,Budapest - Hungary<br>Population 1.679<br>AQI: 61.5
+Yaounde,3.8667,11.5167,Cameroon,CMR,1611000,0.8098922390000001,,No Status,#EEEEEE,Yaounde - Cameroon<br>Population 1.611<br>AQI: nan
+La Paz,-16.498,-68.15,Bolivia,BOL,1590000,0.8134979940000001,65.33333333333333,Moderate,#FBDE3B,La Paz - Bolivia<br>Population 1.59<br>AQI: 65.3333
+Abuja,9.0833,7.5333,Nigeria,NGA,1576000,0.817072001,,No Status,#EEEEEE,Abuja - Nigeria<br>Population 1.576<br>AQI: nan
+Harare,-17.8178,31.0447,Zimbabwe,ZWE,1572000,0.820636936,,No Status,#EEEEEE,Harare - Zimbabwe<br>Population 1.572<br>AQI: nan
+Montevideo,-34.858000000000004,-56.1711,Uruguay,URY,1513000,0.824068073,,No Status,#EEEEEE,Montevideo - Uruguay<br>Population 1.513<br>AQI: nan
+Bamako,12.65,-8.0,Mali,MLI,1494000,0.8274561220000001,227.0,Very Unhealthy,#6E0D9E,Bamako - Mali<br>Population 1.494<br>AQI: 227.0
+Conakry,9.5315,-13.6802,Guinea,GIN,1494000,0.830844171,,No Status,#EEEEEE,Conakry - Guinea<br>Population 1.494<br>AQI: nan
+Phnom Penh,11.55,104.9166,Cambodia,KHM,1466000,0.834168723,,No Status,#EEEEEE,Phnom Penh - Cambodia<br>Population 1.466<br>AQI: nan
+Lome,6.1319,1.2228,Togo,TGO,1452000,0.837461525,77.3157894736842,Moderate,#FBDE3B,Lome - Togo<br>Population 1.452<br>AQI: 77.3158
+Doha,25.2866,51.533,Qatar,QAT,1450000,0.840749793,20.583333333333332,Good,#0D9E6E,Doha - Qatar<br>Population 1.45<br>AQI: 20.5833
+Kuala Lumpur,3.1667,101.7,Malaysia,MYS,1448000,0.8440335240000001,52.25,Moderate,#FBDE3B,Kuala Lumpur - Malaysia<br>Population 1.448<br>AQI: 52.25
+Maputo,-25.9553,32.5892,Mozambique,MOZ,1446000,0.84731272,,No Status,#EEEEEE,Maputo - Mozambique<br>Population 1.446<br>AQI: nan
+San Salvador,13.71,-89.20299999999999,El Salvador,SLV,1433000,0.850562435,86.5,Moderate,#FBDE3B,San Salvador - El Salvador<br>Population 1.433<br>AQI: 86.5
+Kampala,0.3167,32.5833,Uganda,UGA,1420000,0.85378267,160.0,Unhealthy,#ff5252,Kampala - Uganda<br>Population 1.42<br>AQI: 160.0
+The Hague,52.08,4.27,Netherlands,NLD,1406000,0.856971155,14.0,Good,#0D9E6E,The Hague - Netherlands<br>Population 1.406<br>AQI: 14.0
+Brazzaville,-4.2592,15.2847,Congo (Brazzaville),COG,1355000,0.860043984,,No Status,#EEEEEE,Brazzaville - Congo (Brazzaville)<br>Population 1.355<br>AQI: nan
+Pretoria,-25.7069,28.2294,South Africa,ZAF,1338000,0.863078261,21.0,Good,#0D9E6E,Pretoria - South Africa<br>Population 1.338<br>AQI: 21.0
+Lusaka,-15.4166,28.2833,Zambia,ZMB,1328000,0.86608986,,No Status,#EEEEEE,Lusaka - Zambia<br>Population 1.328<br>AQI: nan
+San Jose,9.935,-84.0841,Costa Rica,CRI,1284000,0.8690016770000001,81.0,Moderate,#FBDE3B,San Jose - Costa Rica<br>Population 1.284<br>AQI: 81.0
+Panama City,8.968,-79.533,Panama,PAN,1281000,0.871906691,51.0,Moderate,#FBDE3B,Panama City - Panama<br>Population 1.281<br>AQI: 51.0
+Stockholm,59.3508,18.0973,Sweden,SWE,1264000,0.874773153,23.5,Good,#0D9E6E,Stockholm - Sweden<br>Population 1.264<br>AQI: 23.5
+Sofia,42.6833,23.3167,Bulgaria,BGR,1185000,0.877460461,44.07692307692308,Good,#0D9E6E,Sofia - Bulgaria<br>Population 1.185<br>AQI: 44.0769
+Prague,50.0833,14.466,Czechia,CZE,1162000,0.8800956109999999,34.3,Good,#0D9E6E,Prague - Czechia<br>Population 1.162<br>AQI: 34.3
+Ouagadougou,12.3703,-1.5247,Burkina Faso,BFA,1149000,0.8827012790000001,,No Status,#EEEEEE,Ouagadougou - Burkina Faso<br>Population 1.149<br>AQI: nan
+Ottawa,45.4167,-75.7,Canada,CAN,1145000,0.885297876,22.6,Good,#0D9E6E,Ottawa - Canada<br>Population 1.145<br>AQI: 22.6
+Helsinki,60.1756,24.9341,Finland,FIN,1115000,0.88782644,26.2,Good,#0D9E6E,Helsinki - Finland<br>Population 1.115<br>AQI: 26.2
+Yerevan,40.1812,44.5136,Armenia,ARM,1102000,0.890325523,,No Status,#EEEEEE,Yerevan - Armenia<br>Population 1.102<br>AQI: nan
+Mogadishu,2.0667,45.3667,Somalia,SOM,1100000,0.8928200709999999,,No Status,#EEEEEE,Mogadishu - Somalia<br>Population 1.1<br>AQI: nan
+Tbilisi,41.725,44.7908,Georgia,GEO,1100000,0.895314618,42.5,Good,#0D9E6E,Tbilisi - Georgia<br>Population 1.1<br>AQI: 42.5
+Belgrade,44.8186,20.468,Serbia,SRB,1099000,0.897806898,145.5,Unhealthy for Sensitive Group,#FF9E3D,Belgrade - Serbia<br>Population 1.099<br>AQI: 145.5
+Dushanbe,38.56,68.7739,Tajikistan,TJK,1086244,0.90027025,180.0,Unhealthy,#ff5252,Dushanbe - Tajikistan<br>Population 1.086244<br>AQI: 180.0
+Copenhagen,55.6786,12.5635,Denmark,DNK,1085000,0.9027307809999999,16.0,Good,#0D9E6E,Copenhagen - Denmark<br>Population 1.085<br>AQI: 16.0
+Amman,31.95,35.9333,Jordan,JOR,1060000,0.905134618,24.09090909090909,Good,#0D9E6E,Amman - Jordan<br>Population 1.06<br>AQI: 24.0909
+Dublin,53.3331,-6.2489,Ireland,IRL,1059000,0.907536187,37.5,Good,#0D9E6E,Dublin - Ireland<br>Population 1.059<br>AQI: 37.5
+Monrovia,6.3106,-10.8048,Liberia,LBR,1041000,0.909896936,,No Status,#EEEEEE,Monrovia - Liberia<br>Population 1.041<br>AQI: nan
+Amsterdam,52.35,4.9166,Netherlands,NLD,1031000,0.912235007,31.0625,Good,#0D9E6E,Amsterdam - Netherlands<br>Population 1.031<br>AQI: 31.0625
+Jerusalem,31.7784,35.2066,Israel,ISR,1029300,0.9145692240000001,87.83333333333333,Moderate,#FBDE3B,Jerusalem - Israel<br>Population 1.0293<br>AQI: 87.8333
+Guatemala City,14.6211,-90.527,Guatemala,GTM,1024000,0.91689142,59.0,Moderate,#FBDE3B,Guatemala City - Guatemala<br>Population 1.024<br>AQI: 59.0
+N'Djamena,12.1131,15.0491,Chad,TCD,989000,0.9191342459999999,,No Status,#EEEEEE,N'Djamena - Chad<br>Population 0.989<br>AQI: nan
+Tegucigalpa,14.102,-87.2175,Honduras,HND,946000,0.9212795559999999,,No Status,#EEEEEE,Tegucigalpa - Honduras<br>Population 0.946<br>AQI: nan
+Kingston,17.9771,-76.7674,Jamaica,JAM,937700,0.923406045,36.6,Good,#0D9E6E,Kingston - Jamaica<br>Population 0.9377<br>AQI: 36.6
+Nay Pyi Taw,19.7666,96.1186,Burma,MMR,930000,0.925515071,37.166666666666664,Good,#0D9E6E,Nay Pyi Taw - Burma<br>Population 0.93<br>AQI: 37.1667
+Djibouti,11.595,43.148,Djibouti,DJI,923000,0.9276082240000001,,No Status,#EEEEEE,Djibouti - Djibouti<br>Population 0.923<br>AQI: nan
+Managua,12.152999999999999,-86.2685,Nicaragua,NIC,920000,0.929694572,,No Status,#EEEEEE,Managua - Nicaragua<br>Population 0.92<br>AQI: nan
+Niamey,13.5167,2.1167,Niger,NER,915000,0.931769582,,No Status,#EEEEEE,Niamey - Niger<br>Population 0.915<br>AQI: nan
+Tirana,41.3275,19.8189,Albania,ALB,895350,0.933800031,,No Status,#EEEEEE,Tirana - Albania<br>Population 0.89535<br>AQI: nan
+Kathmandu,27.7167,85.3166,Nepal,NPL,895000,0.935829685,152.2,Unhealthy,#ff5252,Kathmandu - Nepal<br>Population 0.895<br>AQI: 152.2
+Ulaanbaatar,47.9167,106.9166,Mongolia,MNG,885000,0.937836662,213.63636363636363,Very Unhealthy,#6E0D9E,Ulaanbaatar - Mongolia<br>Population 0.885<br>AQI: 213.6364
+Kigali,-1.9536,30.0605,Rwanda,RWA,860000,0.939786945,,No Status,#EEEEEE,Kigali - Rwanda<br>Population 0.86<br>AQI: nan
+Bishkek,42.8731,74.5852,Kyrgyzstan,KGZ,837000,0.941685069,163.0,Unhealthy,#ff5252,Bishkek - Kyrgyzstan<br>Population 0.837<br>AQI: 163.0
+Oslo,59.9167,10.75,Norway,NOR,835000,0.943578657,34.666666666666664,Good,#0D9E6E,Oslo - Norway<br>Population 0.835<br>AQI: 34.6667
+Bangui,4.3666,18.5583,Central African Republic,CAF,831925,0.9454652720000001,,No Status,#EEEEEE,Bangui - Central African Republic<br>Population 0.831925<br>AQI: nan
+Freetown,8.47,-13.2342,Sierra Leone,SLE,827000,0.947340718,35.0,Good,#0D9E6E,Freetown - Sierra Leone<br>Population 0.827<br>AQI: 35.0
+Islamabad,33.7,73.1666,Pakistan,PAK,780000,0.949109579,114.0,Unhealthy for Sensitive Group,#FF9E3D,Islamabad - Pakistan<br>Population 0.78<br>AQI: 114.0
