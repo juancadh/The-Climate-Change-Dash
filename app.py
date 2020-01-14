@@ -12,6 +12,8 @@ import plotly.graph_objects as go
 from procedures.environment_functions import AirQuality, GlobalTemperature, CO2Emissions
 
 
+# HEROKU APP:  the-climate-change-dash
+
 # -----------------------------------------------------------------------------------
 # ----------------------------- INITIAL DATA ----------------------------------------
 # -----------------------------------------------------------------------------------
