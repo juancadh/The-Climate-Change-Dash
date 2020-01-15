@@ -14,7 +14,8 @@ from flask import Flask
 import plotly.express as px
 import os 
 
-# HEROKU APP:  the-climate-change-dash
+# HEROKU APP:  http://the-climate-change-app.herokuapp.com/
+
 
 # -----------------------------------------------------------------------------------
 # ----------------------------- INITIAL DATA ----------------------------------------
