@@ -14,8 +14,8 @@ from flask import Flask
 import plotly.express as px
 import os 
 
-# HEROKU APP:  http://the-climate-change-app.herokuapp.com/
 
+# HEROKU APP:  http://the-climate-change-app.herokuapp.com/
 
 # -----------------------------------------------------------------------------------
 # ----------------------------- INITIAL DATA ----------------------------------------
@@ -92,6 +92,48 @@ app.layout = html.Div(children=[
     html.H2(
         className = "subtitle_title",
         children='Raising Earth Consciousness through Data Visualization. This dashboard provides a set of visual tools to keep track of climate change issues and be aware of our footprint and impact on the planet.'
+    ),
+
+    html.Div(
+        className='data_numbers_container',
+        children=[
+            html.Div(
+                className='data_num_box',
+                children=[
+                    html.H2(children='Ice Sheets Loss'),
+                    html.H3(children='206.5 Gt'),
+                    html.H4(children='Gigatones per year since 2002'),
+                    html.H6(children='Source: climate.nasa.gov')
+                ]
+            ),
+            html.Div(
+                className='data_num_box',
+                children=[
+                    html.H2(children='Extinctions'),
+                    html.H3(children='10 K'),
+                    html.H4(children='Species go extinct every year'),
+                    html.H6(children='Source: wwf.panda.org')
+                ]
+            ),
+            html.Div(
+                className='data_num_box',
+                children=[
+                    html.H2(children='Fires'),
+                    html.H3(children='4.5 M'),
+                    html.H4(children='Wildfires worldwide in 2019'),
+                    html.H6(children='Source: Global Forest Watch Fires')
+                ]
+            ),
+            html.Div(
+                className='data_num_box',
+                children=[
+                    html.H2(children='See Level'),
+                    html.H3(children='96 (±4) mm'),
+                    html.H4(children='Has increased since 1993'),
+                    html.H6(children='Source: sealevel.nasa.gov')
+                ]
+            )
+        ]
     ),
 
     # ----- MAIN CONTAINER -----
@@ -319,7 +361,7 @@ def update_metrics(n):
               [Input('interval-component', 'n_intervals')])
 def update_graph_live(n):
     # Get data from the AIP Source to update the values
-    dataAQI = aqi_fun.updateAQIData(perc_countries = 0.95)
+    dataAQI = aqi_fun.updateAQIData(perc_countries = 0.75)
     # Create the chart figure
     AQIfig  = aqi_fun.createAQIChart(dataAQI, scale = 0.2)
 

@@ -17,7 +17,7 @@ body{
 .subtitle_title{
     font-size: 17px;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
     color: #555555;
     margin: 0 auto 30px auto;
     font-weight: lighter;
@@ -168,4 +168,67 @@ body{
     display: inline-block;
     margin: 0;
     text-align: left;
+}
+
+.data_numbers_container{
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    width: 100%;
+    margin: auto;
+    max-width: 1400px;
+}
+
+.data_num_box{
+    height: 110px;
+    width: 220px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 0 20px;
+    padding: 10px 15px;
+    position: relative;
+    box-shadow: 2px 2px 2px lightgrey;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.data_num_box>h2{
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #56BB9A;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.data_num_box>h3{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #333333;
+    margin: 5px 0;
+    padding: 0;
+    line-height: 50px;
+}
+
+.data_num_box>h4{
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: #999999;
+    margin: 0;
+    padding: 0;
+}
+
+.data_num_box>h6{
+    font-size: 9.5px;
+    font-weight: lighter;
+    color: #cecece;
+    margin: 0;
+    padding: 0;
+    transform: translateY(15px);
+    text-align: right;
 }
