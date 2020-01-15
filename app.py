@@ -361,7 +361,7 @@ def update_metrics(n):
               [Input('interval-component', 'n_intervals')])
 def update_graph_live(n):
     # Get data from the AIP Source to update the values
-    dataAQI = aqi_fun.updateAQIData(perc_countries = 0.75)
+    dataAQI = aqi_fun.updateAQIData(perc_countries = 0.95)
     # Create the chart figure
     AQIfig  = aqi_fun.createAQIChart(dataAQI, scale = 0.2)
 
