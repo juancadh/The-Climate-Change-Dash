@@ -81,7 +81,6 @@ meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"
 
 server = Flask(__name__)
 server.secret_key = os.environ.get('secret_key', 'secret')
-#app = dash.Dash(__name__, external_stylesheets=external_stylesheets, meta_tags=meta_tags)
 app = dash.Dash(__name__, server = server, meta_tags=meta_tags)
 
 app.layout = html.Div(children=[
@@ -92,7 +91,7 @@ app.layout = html.Div(children=[
 
     html.H2(
         className = "subtitle_title",
-        children='Raising Earth Consciousness through Data Visualization'
+        children='Raising Earth Consciousness through Data Visualization. This dashboard provides a set of visual tools to keep track of climate change issues and be aware of our footprint and impact on the planet.'
     ),
 
     # ----- MAIN CONTAINER -----
@@ -312,7 +311,7 @@ def update_metrics(n):
         city = city + ", " + country
     return html.Span(aqi_mean, style = {'color': color}), city
 
-""" 
+
 # ----------------- UPDATE THE API CHART EVERY N MINUTES ------------------
 @app.callback([Output('airquality-graph', 'figure'), Output('live-update-text', 'children'),
                Output('current_pos_aqi_val_best', 'children'), Output('current_pos_aqi_city_name_best', 'children'),
@@ -341,7 +340,7 @@ def update_graph_live(n):
     text_print = f"Last updated: {time_update} - Source: aqicn.org"
 
     return AQIfig, text_print, html.Span(best_aqi, style = {'color': best["color"]}), best_place, html.Span(worst_aqi, style = {'color': worst["color"]}), worst_place
- """
+ 
 
 
 if __name__ == '__main__':

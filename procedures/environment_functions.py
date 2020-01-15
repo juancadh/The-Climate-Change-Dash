@@ -148,12 +148,12 @@ class WasteGeneration():
         # Create figure
         fig = go.Figure(data=[go.Sankey(
             valueformat = ".0f",
-            valuesuffix = "Tons",
+            valuesuffix = "Thds of Tons",
             # Define nodes
             node = dict(
                 pad = 15,
                 thickness = 15,
-                line = dict(color = "black", width = 0.5),
+                line = dict(color = "white", width = 0.5),
                 label = label,
                 color = 'deepskyblue'
             ),
@@ -167,12 +167,13 @@ class WasteGeneration():
 
         fig.update_layout(
             height = 500, 
-            width  = 650,
+            width  = 630,
             font = dict(
                 family="sans-serif",
                 size=12,
                 color="#333333"
             ),
+            margin = dict(t=50, l=0, r=0, b=0)
             #paper_bgcolor='rgba(0,0,0,0)'
             #plot_bgcolor='rgba(0,0,0,0)'
         )
@@ -268,7 +269,8 @@ class CO2Emissions():
 
         fig.update_layout(
             height = 500, 
-            width  = 650,
+            width  = 630,
+            margin = dict(t=50, l=0, r=0, b=0),
             xaxis_title=x_label, 
             yaxis_title="CO2 Emisions per Capita",
             legend = go.layout.Legend(
@@ -333,6 +335,7 @@ class GlobalTemperature:
             height = 470, 
             width  = 700,
             xaxis_title="Year",
+            margin = dict(t=50, l=0, r=0, b=0),
             xaxis=go.layout.XAxis(
                 rangeslider=dict(
                     visible=True
