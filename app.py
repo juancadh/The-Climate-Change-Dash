@@ -11,6 +11,7 @@ from datetime import datetime
 import plotly.graph_objects as go
 from procedures.environment_functions import AirQuality, GlobalTemperature, CO2Emissions
 from flask import Flask
+import plotly.express as px
 import os 
 
 # HEROKU APP:  the-climate-change-dash
@@ -70,17 +71,17 @@ AQIfig = aqi_fun.createAQIChart(dataAQI, scale = 0.2)
 # -----------------------------------------------------------------------------------
 UPDATE_MINS = 30
 
-#meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}]
+meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}]
 
 server = Flask(__name__)
 server.secret_key = os.environ.get('secret_key', 'secret')
 #app = dash.Dash(__name__, external_stylesheets=external_stylesheets, meta_tags=meta_tags)
-app = dash.Dash(__name__, server = server)
+app = dash.Dash(__name__, server = server, meta_tags=meta_tags)
 
 app.layout = html.Div(children=[
     html.H1(
         id = "main_title",
-        children='The world of us'
+        children='The Climate Change App'
     ),
 
     html.H2(
@@ -241,7 +242,12 @@ app.layout = html.Div(children=[
                 ]
             )
         ]
-    )
+    ),
+
+    html.H3(
+        className = "credits",
+        children='Developed by Maria F. Restrepo & Juan C. Díaz | DV Final Project | 2020'
+    ),
 ])
 
 
@@ -268,7 +274,7 @@ def update_metrics(n):
         city = city + ", " + country
     return html.Span(aqi_mean, style = {'color': color}), city
 
-
+""" 
 # ----------------- UPDATE THE API CHART EVERY N MINUTES ------------------
 @app.callback([Output('airquality-graph', 'figure'), Output('live-update-text', 'children'),
                Output('current_pos_aqi_val_best', 'children'), Output('current_pos_aqi_city_name_best', 'children'),
@@ -297,7 +303,7 @@ def update_graph_live(n):
     text_print = f"Last updated: {time_update} - Source: aqicn.org"
 
     return AQIfig, text_print, html.Span(best_aqi, style = {'color': best["color"]}), best_place, html.Span(worst_aqi, style = {'color': worst["color"]}), worst_place
-
+ """
 
 
 if __name__ == '__main__':

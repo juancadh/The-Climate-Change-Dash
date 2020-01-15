@@ -23,6 +23,15 @@ body{
     font-weight: lighter;
 }
 
+.credits{
+    font-size: 13px;
+    text-align: left;
+    letter-spacing: 2px;
+    color: #777777;
+    margin: 30px 10px 0 10px;
+    font-weight: lighter;
+}
+
 .main_container{
     position: relative;
     display: flex;
