@@ -1,2 +1,5 @@
 _env/
 .vscode/
+*.pyc
+.DS_Store
+.env

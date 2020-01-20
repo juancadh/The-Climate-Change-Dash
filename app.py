@@ -79,9 +79,12 @@ UPDATE_MINS = 30
 
 meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}]
 
-server = Flask(__name__)
-server.secret_key = os.environ.get('secret_key', 'secret')
-app = dash.Dash(__name__, server = server, meta_tags=meta_tags)
+#server = Flask(__name__)
+#server.secret_key = os.environ.get('secret_key', 'secret')
+
+#app = dash.Dash(__name__, server = server, meta_tags=meta_tags)
+app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div(children=[
     html.H1(
